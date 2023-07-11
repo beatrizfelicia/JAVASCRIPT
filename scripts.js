@@ -15,7 +15,7 @@ function convertValues() {
     const euroToday = 6.2
     const libraToday = 6.1
     const bitcoinToday = 128.0
-    const yenToday = 0.03
+    
 
 
 
@@ -57,8 +57,6 @@ function convertValues() {
             currency: 'BTC',
 
         }).format(inputCurrencyValues / bitcoinToday)
-        
-        console.log ( funcionou)
     }
 
 
@@ -116,11 +114,8 @@ function changeCurrency() {
         currencyImage.src = "./assets/bitcoin.png"
 
     }
-
-
-
-
-    convertValues()
+    
+ convertValues()
 
 }
 currencySelect.addEventListener("change", changeCurrency)
