@@ -106,7 +106,7 @@ function changeCurrency() {
 
         currencyName.innerHTML = "Libra"
 
-        currencyImage.src = "./assets/libra .png"
+        currencyImage.src = "./assets/libra.png"
     }
 
     if (currencySelect.value == "bitcoin-converted") {
@@ -117,12 +117,7 @@ function changeCurrency() {
 
     }
 
-    if (currencySelect.value == "yen-converted") {
 
-        currencyName.innerHTML = "Yen"
-
-        currencyImage.src = "./assets/yen2.png"
-    }
 
 
     convertValues()
